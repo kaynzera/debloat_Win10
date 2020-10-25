@@ -98,7 +98,7 @@
   <Association Identifier=".xpm" ProgId="IrfanView.xpm" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".xvid" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
   <Association Identifier="http" ProgId="FirefoxHTML" ApplicationName="Firefox" />
-  <Association Identifier="https" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier="https" ProgId="FirefoxHTML" ApplicationName="Firefox"/>
   <Association Identifier="microsoft-edge" ProgId="AppX7rm9drdg8sk7vqndwj3sdjw11x96jc0y" ApplicationName="Microsoft Edge" />
   <Association Identifier="microsoft-edge-holographic" ProgId="AppX3xxs313wwkfjhythsb8q46xdsq8d2cvv" ApplicationName="Microsoft Edge" />
   <Association Identifier="ms-xbl-3d8b930f" ProgId="AppXdn5b0j699ka5fqvrr3pgjad0evqarm6d" ApplicationName="Microsoft Edge" />

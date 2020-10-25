@@ -32,7 +32,8 @@ $tweaks = @(
 	"TitusRegistryTweaks",
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
-	"InstallFirefox",
+	#"InstallFirefox",
+	"InstallFirefoxDev",
 	"InstallNotepadplusplus",
 	"InstallIrfanview",
 	"InstallVLC",
@@ -250,6 +251,10 @@ Function Install7Zip {
 
 Function Firefox {
 	Show-Choco-Menu -Title "Do you want to install 7-Zip?" -ChocoInstall "firefox"
+}
+
+Function FirefoxDev {
+	Show-Choco-Menu -Title "Do you want to install 7-Zip?" -ChocoInstall "firefox-dev --pre"
 }
 
 Function InstallNotepadplusplus {

@@ -266,7 +266,7 @@ Function InstallIrfanview {
 
 Function ChangeDefaultApps {
 	Write-Output "Setting Default Programs - Notepad++ VLC IrFanView"
-	Start-BitsTransfer -Source "https://raw.githubusercontent.com/ChrisTitusTech/win10script/master/MyDefaultAppAssociations.xml" -Destination $HOME\Desktop\MyDefaultAppAssociations.xml
+	Start-BitsTransfer -Source "https://raw.githubusercontent.com/kaynzera/debloat_Win10/main/MyDefaultAppAssociations.xml" -Destination $HOME\Desktop\MyDefaultAppAssociations.xml
 	dism /online /Import-DefaultAppAssociations:"%UserProfile%\Desktop\MyDefaultAppAssociations.xml"
 }
 

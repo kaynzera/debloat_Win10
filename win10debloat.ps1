@@ -36,7 +36,7 @@ $tweaks = @(
 	"InstallNotepadplusplus",
 	"InstallIrfanview",
 	"InstallVLC",
-	#"ChangeDefaultApps",
+	"ChangeDefaultApps",
 
 	### Windows Apps
 	"DebloatAll",
